@@ -3,7 +3,21 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  endpoint: {
+    api: 'https://pokeapi.co/api/v2/',
+    pokemon: {
+      id: 'pokemon/_id_' ,
+      name: 'pokemon/_name_',
+      pagination: 'pokemon?limit=_limit_&offset=_offset_'
+    },
+    type: {
+      id: 'type/_id_'
+    },
+    ability: {
+      id: 'ability/_id_'
+    }
+  }
 };
 
 /*

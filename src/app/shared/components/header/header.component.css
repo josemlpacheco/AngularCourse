@@ -1,0 +1,15 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.example-form-field {
+  width: 200px;
+}
+
+.example-button-row {
+  margin-left: 10px;
+}
+
+.outline_focus{
+  outline: none;
+}

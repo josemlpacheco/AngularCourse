@@ -1,0 +1,24 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button class="example-icon outline_focus" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Pokemon</span>
+  <span class="example-spacer"></span>
+
+  <mat-form-field class="example-form-field">
+    <input matInput type="text" [(ngModel)]="value">
+  </mat-form-field>
+
+  <section>
+    <div class="example-button-row">
+      <button mat-raised-button class="outline_focus" (click)="sendValue()">Search</button>
+    </div>
+  </section>
+
+  <button mat-icon-button class="example-icon favorite-icon outline_focus" aria-label="Example icon-button with heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button mat-icon-button class="example-icon outline_focus" aria-label="Example icon-button with share icon">
+    <mat-icon>share</mat-icon>
+  </button>
+</mat-toolbar>
